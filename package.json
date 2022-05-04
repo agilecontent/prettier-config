@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thiagojedi/prettier-config/issues"
   },
-  "homepage": "https://github.com/thiagojedi/prettier-config#readme"
+  "homepage": "https://github.com/thiagojedi/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": "^2.0.0"
+  }
 }
