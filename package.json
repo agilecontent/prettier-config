@@ -1,0 +1,19 @@
+{
+  "name": "@thiagojedi/prettier-config",
+  "version": "1.0.0",
+  "description": "My personal prettier config",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagojedi/prettier-config.git"
+  },
+  "author": "Thiago 'Jedi' Cerqueira <thiagoa7@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/thiagojedi/prettier-config/issues"
+  },
+  "homepage": "https://github.com/thiagojedi/prettier-config#readme"
+}
