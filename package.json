@@ -4,7 +4,8 @@
   "description": "Base configuration for Prettier",
   "main": "index.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "homepage": "https://github.com/thiagojedi/prettier-config#readme",
   "peerDependencies": {
     "prettier": "^2.0.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1"
+  },
+  "lint-staged": {
+    "*.{md,json}": "prettier --config index.json --write"
   }
 }
