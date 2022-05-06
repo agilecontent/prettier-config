@@ -1,7 +1,7 @@
 {
-  "name": "@thiagojedi/prettier-config",
+  "name": "@agilecontent/prettier-config",
   "version": "1.0.0",
-  "description": "My personal prettier config",
+  "description": "Base configuration for Prettier",
   "main": "index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
