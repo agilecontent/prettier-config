@@ -1,6 +1,6 @@
 {
   "name": "@agilecontent/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Base configuration for Prettier",
   "main": "index.json",
   "scripts": {
