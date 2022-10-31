@@ -1,6 +1,6 @@
 {
   "name": "@agilecontent/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base configuration for Prettier",
   "main": "index.json",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagojedi/prettier-config.git"
+    "url": "git+https://github.com/agilecontent/prettier-config.git"
   },
-  "author": "Thiago 'Jedi' Cerqueira <thiagoa7@gmail.com>",
+  "author": "Thiago 'Jedi' Cerqueira <thiago.cerqueira@agilecontent.com>",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/thiagojedi/prettier-config/issues"
+    "url": "https://github.com/agilecontent/prettier-config/issues"
   },
-  "homepage": "https://github.com/thiagojedi/prettier-config#readme",
+  "homepage": "https://github.com/agilecontent/prettier-config#readme",
   "peerDependencies": {
     "prettier": "^2.0.0"
   },

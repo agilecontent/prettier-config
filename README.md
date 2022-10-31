@@ -4,20 +4,31 @@ Base configuration for Prettier, used internally by @agilecontent
 
 ## How to use
 
+Install the package as development dependency:
+
+npm:
+
+```
+npm i -D @agilecontent/prettier-config
+```
+
+yarn:
+
+```
+yarn add -D @agilecontent/prettier-config
+```
+
 In your package.json, add the following:
 
-```json5
+```json
 {
-  devDependencies: {
-    '@agilecontent/prettier-config': 'github:agilecontent/prettier-config',
-    //...other dependencies
-  },
-  prettier: '@agilecontent/prettier-config',
+  "prettier": "@agilecontent/prettier-config"
 }
 ```
 
 We **do not recommend**, but if you need to change or add any other config to the prettier, you must
-create a `.prettierrc.js` file with the following content:
+remove the prettier option on `package.json` and create a `.prettierrc.js` file with the following
+content:
 
 ```js
 const baseConfig = require('@agilecontent/prettier-config');
